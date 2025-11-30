@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     setTheme(savedTheme);
     document.documentElement.setAttribute('data-theme', savedTheme);
   }, []);
