@@ -7,14 +7,9 @@ const About = () => {
         <h2 className="section-title">About Me</h2>
         <div className="about-text">
           <p>
-            I'm a final-year IT student passionate about the intersection of technology, investing, and health.
-            I love understanding how markets work, how global events shape financial decisions, and how smart
-            systems can simplify complex problems.
-          </p>
-          <p>
-            Outside coding, I focus on long-term investing, learning about finance, and maintaining a healthy
-            lifestyle through fitness and mindful habits. My goal is to build meaningful tech solutions while
-            growing consistently in both financial and personal well-being.
+            When I'm not coding, I'm probably at the gym, reading about investing, or figuring out how global
+            events ripple through markets. Fitness and financial literacy are side quests that keep me sharp.
+            The goal: build tech that matters, stay healthy, keep learning, and grow consistently across the board.
           </p>
         </div>
         <div className="about-stats">
