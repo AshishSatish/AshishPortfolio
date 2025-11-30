@@ -3,14 +3,16 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Ethical Analysis Project',
-      description: 'Developed a system to extract and analyze ethical insights from company annual reports by leveraging search algorithms and NLP models. Implements Blind Search and A* Search for keyword detection, optimizing document sections for relevance with fuzzy matching capabilities.',
-      technologies: ['Python', 'NLP', 'A* Search', 'Fuzzy Matching', 'PDF Processing'],
+      title: 'AI-Powered Company Research Assistant',
+      description: 'Built an intelligent system that streamlines company research and automatically generates comprehensive account plans for sales and business development. Features natural language chat interface with multi-source web research leveraging 25+ sources and AI-driven data synthesis.',
+      technologies: ['FastAPI', 'Groq API', 'SerpAPI', 'Python', 'WebSockets', 'JavaScript'],
       features: [
-        'Automatic text extraction from PDF documents',
-        'Blind Search and A* Search algorithms for keyword detection',
-        'Fuzzy matching for enhanced search accuracy',
-        'Optimized document section analysis'
+        'Natural language chat interface for intuitive interaction',
+        'Multi-source web research with conflict detection',
+        'Automated generation of 9-section account plans',
+        'Real-time progress notifications through WebSockets',
+        'Voice input capability for hands-free operation',
+        'Modular architecture with single-responsibility design'
       ]
     },
     {
