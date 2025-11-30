@@ -108,6 +108,17 @@
 
 .social-link svg {
   transition: all 0.3s ease;
+  fill: none;
+}
+
+.social-link svg[fill="currentColor"] {
+  fill: var(--text-primary);
+  stroke: none;
+}
+
+.social-link:hover svg[fill="currentColor"] {
+  fill: var(--bg-primary);
+  stroke: none;
 }
 
 .footer {
