@@ -130,6 +130,17 @@
 
 .social-icon svg {
   transition: all 0.3s ease;
+  fill: none;
+}
+
+.social-icon svg[fill="currentColor"] {
+  fill: var(--text-primary);
+  stroke: none;
+}
+
+.social-icon:hover svg[fill="currentColor"] {
+  fill: var(--bg-primary);
+  stroke: none;
 }
 
 .hero-cta {
