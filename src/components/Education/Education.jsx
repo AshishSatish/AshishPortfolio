@@ -14,9 +14,9 @@ const Education = () => {
         'Neural Networks and Fuzzy Logic Control',
         'Machine Learning',
         'Database Management System (DBMS)',
-        'Artificial Intelligence',
+        'Natural Language Processing',
         'OOP Concepts',
-        'Backend Development'
+        'Data Communication and Computer Networks'
       ]
     },
     {
