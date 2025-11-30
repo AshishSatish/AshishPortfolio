@@ -34,6 +34,9 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -104,5 +107,30 @@ button {
 
   h2.section-title {
     font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 35px 16px;
+  }
+
+  .compact-section {
+    padding: 30px 16px;
+  }
+
+  h2.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  /* Improve touch targets for interactive elements */
+  button {
+    min-height: 44px;
+    min-width: 44px;
   }
 }

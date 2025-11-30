@@ -64,6 +64,10 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    padding: 40px 20px !important;
+  }
+
   .section-title {
     font-size: 2rem;
   }
@@ -79,5 +83,28 @@
 
   .stat h3 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 35px 16px !important;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-stats {
+    gap: 1.2rem;
+  }
+
+  .stat h3 {
+    font-size: 1.8rem;
+  }
+
+  .stat p {
+    font-size: 0.9rem;
   }
 }

@@ -44,3 +44,19 @@
     padding: 0.45rem 0.9rem;
   }
 }
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 35px 16px !important;
+  }
+
+  .skills-container {
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+  }
+
+  .skill-tag {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
