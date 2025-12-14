@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero-content fade-in-up">
         <div className="hero-badge">👋 Hey there, I'm</div>
         <h1 className="hero-name">Ashish Bhosale</h1>
-        <p className="hero-philosophy">21 • Software Developer </p>
+        <p className="hero-philosophy">21 • Software Developer • Engineer </p>
         <p className="hero-tagline">
           Crafting ML infrastructure and backend systems. Decentralization keeps me curious
         </p>

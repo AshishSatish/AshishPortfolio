@@ -5,7 +5,7 @@ const Education = () => {
     {
       institution: 'Pimpri Chinchwad College of Engineering, Pune',
       degree: 'B.Tech in Information Technology',
-      score: 'CGPA: 9.22',
+      score: 'CGPA: 9.28',
       duration: 'Aug 2022 - Present',
       location: 'Pune, India',
       coursework: [

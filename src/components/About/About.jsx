@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="about-stats">
           <div className="stat">
-            <h3>9.22</h3>
+            <h3>9.28</h3>
             <p>CGPA</p>
           </div>
           <div className="stat">
@@ -22,7 +22,7 @@ const About = () => {
             <p>Research Papers</p>
           </div>
           <div className="stat">
-            <h3>2</h3>
+            <h3>4</h3>
             <p>Blogs</p>
           </div>
           <div className="stat">
